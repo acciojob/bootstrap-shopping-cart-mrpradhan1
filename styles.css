@@ -1,1 +1,69 @@
 /*  your css code here. If applicable */
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(246,246,245);
+}
+.heading>p{
+    width: 25vw;
+    margin-inline: auto;
+}
+.heading>h1{
+    color: #3b99e0;
+}
+.hero{
+    background-color: rgb(255,255,255);
+}
+img{
+    width:8vw;
+    height:20vh;
+}
+.product{
+    flex:9;
+}
+.sectionAA{
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 10px;
+}
+.sectionAA>.specification{
+    margin-top: 20px;
+}
+.title{
+    font-size: 1.5rem;
+    color: #3b99e0;
+}
+.details>p{
+    margin-bottom: 0px;
+}
+.quantity{
+    align-items: center;
+    margin-top: 20px;
+}
+.quantity>input{
+    width:4vw;
+    text-align: center;
+}
+.price{
+    margin-top: 40px;
+    margin-right: 2vw;
+}
+.summary{
+    flex:3;
+    border-top: 3px solid #5ea4f3;
+    background-color: #f7fbff;
+}
+.summary>h4{
+    text-align: center;
+}
+.bill{
+    width: 80%;
+    margin-inline: auto;
+}
+
+.row1{
+    margin-bottom: -7%;
+}
